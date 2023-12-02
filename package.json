@@ -1,8 +1,14 @@
 {
 	"name": "@guizhan/eslint-config",
 	"version": "0.1.0",
-	"module": "index.js",
-	"type": "module",
+	"main": "index.js",
+	"author": "ybw0014",
+	"files": [
+		"index.js",
+		"README.md",
+		"LICENSE",
+		"package.json"
+	],
 	"keywords": [
 		"eslint",
 		"config",
