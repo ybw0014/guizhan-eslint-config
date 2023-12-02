@@ -1,0 +1,37 @@
+{
+	"name": "@guizhan/eslint-config",
+	"version": "0.1.0",
+	"module": "index.js",
+	"type": "module",
+	"keywords": [
+		"eslint",
+		"config",
+		"javascript",
+		"typescript"
+	],
+	"homepage": "https://github.com/ybw0014/guizhan-eslint-config",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ybw0014/guizhan-eslint-config"
+	},
+	"license": "MIT",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.13.1",
+		"@typescript-eslint/parser": "^6.13.1",
+		"eslint": "^8.55.0",
+		"eslint-plugin-import": "^2.29.0"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.13.1",
+		"@typescript-eslint/parser": "^6.13.1",
+		"eslint": "^8.55.0",
+		"eslint-plugin-import": "^2.29.0"
+	},
+	"engines": {
+		"node": ">= 16"
+	}
+}
