@@ -24,6 +24,7 @@ module.exports = {
     'import/no-unresolved': ['off'],
     'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 1, maxBOF: 0 }],
     'eol-last': ['error', 'always'],
-    'max-len': ['error', { code: 120 }]
+    'max-len': ['error', { code: 120 }],
+    'comma-dangle': ['error', 'never']
   }
 }
